@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+    <ItemGroup>
+        <Filter Include="header">
+            <UniqueIdentifier>{01CE6173-CE48-43AB-A3CF-C404F28C21AD}</UniqueIdentifier>
+            <Extensions>h;hpp;inl</Extensions>
+        </Filter>
+        <Filter Include="resource">
+            <UniqueIdentifier>{B1C361DA-B044-4338-9765-318BC4BC9698}</UniqueIdentifier>
+            <Extensions>hlsl;jpg;jpeg;png;wav;mp3;ico;dds;rc;obj</Extensions>
+        </Filter>
+        <Filter Include="source">
+            <UniqueIdentifier>{FB545F4D-24A8-4D4D-8E9E-34FCA19B0E62}</UniqueIdentifier>
+            <Extensions>cpp;c</Extensions>
+        </Filter>
+    </ItemGroup>
+    <ItemGroup>
+        <ClCompile Include="..\..\..\src\Life\main.cpp">
+            <Filter>source</Filter>
+        </ClCompile>
+    </ItemGroup>
+</Project>
